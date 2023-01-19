@@ -75,12 +75,12 @@ public class MetronomeGUI extends javax.swing.JFrame implements java.awt.event.A
  	 */
 	private void crearBotonBPM() {
 		etiqueta = new JLabel("BPM : ");
-		etiqueta.setBounds(50,10,50,30);
+		etiqueta.setBounds(66,10,50,30);
 		panel.add(etiqueta);
 		opciones = new JComboBox<String>();
 		for(int i=40; i<=220; i+=5)
 			opciones.addItem(Integer.toString(i));
-		opciones.setBounds(100,10,100,30);
+		opciones.setBounds(116,10,100,30);
 		((JLabel)opciones.getRenderer()).setHorizontalAlignment(SwingConstants.CENTER);
 		panel.add(opciones);
 	}
@@ -99,10 +99,10 @@ public class MetronomeGUI extends javax.swing.JFrame implements java.awt.event.A
 	private void crearBotones() {
 		inicio = new JButton("Play");
 		inicio.addActionListener(this);
-		inicio.setBounds(300,10,100,30);
+		inicio.setBounds(316,10,100,30);
 		fin = new JButton("Stop");
 		fin.addActionListener(this);
-		fin.setBounds(500,10,100,30);
+		fin.setBounds(516,10,100,30);
 		panel.add(inicio);
 		panel.add(fin);
 	}
@@ -111,7 +111,7 @@ public class MetronomeGUI extends javax.swing.JFrame implements java.awt.event.A
 	 */
 	private void crearInterfaz() {
 		interfaz = new SimpleMetronomeDisplay();
-		interfaz.setBounds(50,73,550,200);
+		interfaz.setBounds(66,73,550,200);
 		panel.add(interfaz);
 	}
 	/**
@@ -119,7 +119,7 @@ public class MetronomeGUI extends javax.swing.JFrame implements java.awt.event.A
 	 */
 	private void crearPulso() {
 		pulse = new Pulse(interfaz);
-	    pulse.start();
+	    	pulse.start();
 	}
 	/** 
 	 * Metodo sobre escrito de la libreria ActionListener, esto hace que los botones inicio y fin funcionen,

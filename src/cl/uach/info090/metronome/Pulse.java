@@ -1,6 +1,6 @@
 package cl.uach.info090.metronome;
 /**
- * @author Felipe Córdova.
+ * @author Felipe CÃ³rdova.
  */
 
 /**
@@ -51,10 +51,10 @@ public class Pulse extends java.lang.Thread{
 				this.objeto.tick();
 			try {
 				float tiempo = 1000 * ((float)60/getBpm());
-	            Thread.sleep((long)tiempo);
-	         }catch (Exception e) {
-	        	 e.printStackTrace();
-	         }
+	            		Thread.sleep((long)tiempo);
+	         	}catch (Exception e) {
+	        	 	e.printStackTrace();
+	         	}
 		}
 	}
 }

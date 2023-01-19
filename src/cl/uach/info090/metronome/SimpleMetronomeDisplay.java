@@ -11,7 +11,7 @@ import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
 
 /**
- * @author Felipe Córdova
+ * @author Felipe CÃ³rdova
  */
 
 /**
@@ -107,8 +107,8 @@ public class SimpleMetronomeDisplay extends javax.swing.JPanel implements Metron
 		File archivo = new File("./data/sonido_metronomo.wav");
 		try {
 			AudioInputStream audio = AudioSystem.getAudioInputStream(archivo);
-			sonido = AudioSystem.getClip();
-			sonido.open(audio);
+			this.sonido = AudioSystem.getClip();
+			this.sonido.open(audio);
 		}catch (UnsupportedAudioFileException | IOException |LineUnavailableException e) {
 			e.printStackTrace();
 		}

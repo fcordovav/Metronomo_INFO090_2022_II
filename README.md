@@ -5,4 +5,16 @@ Una vez descargado el repositorio e importado en Eclipse, si tiene problemas con
 --> Boton Edit --> En las opciones que muestra System library seleccionar "⊛ Execution environment" y buscar "JavaSE-1.7(jre)" --> Finish --> Apply and Close.
 3) Click derecho encima del proyecto --> Refresh.
 
-Instrucciones en Tarea_2022_2
+Instrucciones en Tarea_2022_2.pdf
+
+El Metronomo tiene para una etiqueta para colocar diferentes BPM, los circulos van cambiando de color a la velocidad que seleccione un BPM.
+Ademas tiene sonido!
+Aquí algunas imagenes del Metronomo.
+![image](https://github.com/PipeCordova/Metronomo_INFO090_2022_II/assets/85969736/9af530ad-fabd-466a-b5a8-a951faa1ec4d)
+![image](https://github.com/PipeCordova/Metronomo_INFO090_2022_II/assets/85969736/0f2618e5-012c-4c44-87a3-654d56f8e064)
+![image](https://github.com/PipeCordova/Metronomo_INFO090_2022_II/assets/85969736/4038f58e-0869-4861-a159-0088386cff6e)
+![image](https://github.com/PipeCordova/Metronomo_INFO090_2022_II/assets/85969736/d3595b70-a159-47be-9804-36ba31f88ee5)
+
+
+
+

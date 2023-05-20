@@ -1,9 +1,10 @@
 # Metronomo hecho en Java para INFO090.
 
 # Para clonar el repositorio en Visual Studio Code
+
 Escriba en la consola: git clone https://github.com/PipeCordova/Metronomo_INFO090_2022_II.git
 
-# Usando Eclipse (https://eclipseide.org/)
+# Usando Eclipse
 
 Si encuentras problemas con el JDK de Java después de descargar el repositorio e importarlo en Eclipse, puedes seguir estos pasos para solucionarlo:
 1) Click derecho encima del proyecto.
